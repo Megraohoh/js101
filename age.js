@@ -26,4 +26,11 @@ if (age == 8000000000) {
 }
 
 
+var phrase = "Hey, look at me!";
+
+var element = document.getElementById("container");
+console.log(document);
+
+element.innerHTML = "<b>hello</b>";
+
 
