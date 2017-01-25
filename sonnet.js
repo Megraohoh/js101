@@ -1,38 +1,37 @@
-
 // Take the contents of the sonnet div and place it in a variable
-// var sonnet = document.getElementById("sonnet");
-// //above line grabs from the div
-// console.log("sonnet", sonnet);
-// var sonnet = element.innerHTML;
-
-var element = document.getElementById("sonnet");
-console.log(element);
+var element=document.getElementById("sonnet");
 var sonnet = element.innerHTML;
 
 // Find and output the starting position of the word "orphans"
-//("sonnet").find('orphans');
-
-var indexOfOrphans = sonnet.indexOf("orphans");
-console.log(indexOfOrphans);
-
-alert("There are " + sonnet.length +" charcters in this sonnet");
-
-var textreplace = sonnet.replace("winter", "yuletide");
-console.log(textreplace);
-
-var globalreplace = sonnet.replace(/the/g, "a large");
-console.log(globalreplace);
-
-document.getElementById("sonnet").innerHTML = "The quick brown fox jumped over the lazy dog!"
-console.log(sonnet);
-
+var indexOfOrphans=sonnet.indexOf("orphans");
 
 // Output the number of characters in the sonnet
 
 // Replace the first occurance of the string "winter" with "yuletide"
+var newSonnet = sonnet.replace("winter", "yuletide");
 
 // Replace all occurances of the string "the" with "a large"
+var globalReplace=newSonnet.replace(/the/gi, "a large");
+
+// or
+// var globalReplace=sonnet.replace(/the /g , "a large ");
 
 // Set the content of the sonnet div with the new string
+element.innerHTML = globalReplace;
 
- 
+
+
+
+// // Take the contents of the sonnet div and place it in a variable
+// var element = document.getElementById("sonnet");
+// var sonnet = element.innerHTML;
+// // Find and output the starting position of the word "orphans"
+// var indexOfOrphans = sonnet.indexOf("orphans");
+// // Output the number of characters in the sonnet
+// alert("There are " + sonnet.length +" charcters in this sonnet");
+// // Replace the first occurance of the string "winter" with "yuletide"
+// var textreplace = sonnet.replace("winter", "yuletide");
+// // Replace all occurances of the string "the" with "a large"
+// var globalreplace = sonnet.replace(/the/g, "a large");
+// // Set the content of the sonnet div with the new string
+// document.getElementById("sonnet").innerHTML = "The quick brown fox jumped over the lazy dog!"
