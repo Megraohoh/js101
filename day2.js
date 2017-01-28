@@ -94,8 +94,21 @@ for(var k=0; k<101 ; k=k+10 ){
 
 
 //for loop that pushes the index to an array for 5 times | console.log(array) = [0,1,2,3,4]
-//for loop that starts at 100 and divides by 2 each time | 3 times = 100,50,25
+var myArray=[];
+for(var i=0; i<5; i++){
+	myArray.push(i);
+	console.log("count: ", i);
+}
 
+console.log("myArray ", myArray);
+
+
+//for loop that starts at 100 and divides by 2 each time | 3 times = 100,50,25
+var num=100;
+for(var j=0; j<3; j++){
+	console.log("Number: ", num);
+	num=num/2;
+}
 
 
 
