@@ -1,0 +1,17 @@
+var input = document.getElementById("input");
+var button = document.getElementById("btn");
+button.addEventListener("click", test);
+
+function test()
+{
+
+  console.log("input: " + input.value);
+}
+
+function inputValidation() {
+  if (input.value === "") {
+    alert("Your shit is wack");
+  } else {
+    test(); //chain to previous function
+  }
+}
