@@ -4,10 +4,7 @@
 
 > Update the sonnet using javascript.
   
-![Forms Screenshot](https://raw.githubusercontent.com/Megraohoh/banking-form/master/screenshots/Screen%20Shot%202017-04-02%20at%208.16.02%20PM.png)
-![Forms Screenshot](https://raw.githubusercontent.com/Megraohoh/banking-form/master/screenshots/Screen%20Shot%202017-04-02%20at%208.16.17%20PM.png)
-
-
+![Forms Screenshot](https://raw.githubusercontent.com/Megraohoh/js101/day3/Screen%20Shot%202017-04-02%20at%208.28.05%20PM.png)
 
 ### How to run :
 ```
